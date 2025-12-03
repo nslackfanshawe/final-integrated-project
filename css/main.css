@@ -1,0 +1,398 @@
+/* 
+
+    CSS Guide
+
+    1. Web Fonts
+    2. General Styles
+    3. Header
+    4. Main Hero Image
+    5. Why Couples Resort
+    6. About & FAQ
+    7. Contact Form
+    8. Footer
+
+*/
+
+/* 1. --- Web Fonts --- */
+
+@font-face {
+    font-family: 'ceragr-regularuploaded_file';
+    src: url('../fonts/cera-gr-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ceragr-mediumuploaded_file';
+    src: url('../fonts/cera-gr-medium-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. ---General Styles--- */
+
+/* outline sits outside the border, but it does not take up space. It’s more like a visual effect painted around the element. */
+#mobile-outline {
+   outline: 20px solid #333;
+   width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    color: #626262;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.cr-red {
+    color: #9a2018;
+}
+
+/* 3. ---Header--- */
+
+#main-nav label img {
+	background: url(../images/burger.svg) center no-repeat;
+	border: 0px;
+	width: 20px;
+	height: 20px;
+	transition: all .5s ease;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+ }
+ 
+ #main-nav li a {
+     display: block;
+     padding: 10px 0 10px 0;
+     text-align: center;
+     color: #626262;
+ }
+ 
+ #main-nav li {
+     border-bottom: 1px solid #efefef;
+ }
+
+#burger-con, #main-nav input {
+    display: none;
+}
+
+/* The general sibling combinator ~ means: “Select any element that is a sibling (shares the same parent) and comes after the target element in the DOM.” */
+
+/* When the checkbox is checked, target the <ul id="burger-con"> that comes after it in the markup. */
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+
+ /* When the checkbox is checked, target the <img> inside the <label> that comes after it. */
+ #main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+ }
+
+/* 4. ---Main Hero Image--- */
+
+#main-hero {
+   margin-top: 20px;
+}
+
+
+.hero-overlap {
+   grid-row: 1/1; 
+}
+
+.book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    grid-row: 1/2;
+    height: 67px;
+ }
+
+ .book-now:hover {
+    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+ }
+
+ .hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-size: 16px;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    align-self: end;
+ }
+ 
+ .hero-img-h2 span {
+    color: #9a2018;
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 20px;
+ }
+
+ #hero-welcome {
+    font-size: 14px;
+    line-height: 22px;
+ }
+
+  #hero-welcome p:first-of-type {
+    border-top: solid 3px #CF6666;
+    margin-top: 15px;
+    padding-top: 20px;
+ } 
+
+ #hero-contact {
+    font-size: 12px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+ }
+
+ #contact-con div {
+   display: flex;
+   justify-content: center;
+ }
+
+ .fas {
+    font-size: 50px;
+    color: #9a2018;
+    /* margin: 0 auto; */
+    /* float: left; */
+ }
+ 
+ .fa-mobile-alt {
+    /* margin-left: 50px; */
+    margin-right: 13px;
+    margin-bottom: 20px;
+ }
+ 
+ .fa-map-marker-alt {
+    /* margin-left: 47px; */
+    margin-right: 10px;
+ }
+
+/* .8 --- Footer --- */
+
+#main-footer {
+    background-image: url(../images/footer-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+
+ #main-footer-contact-info h3 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'ceragr-regularuploaded_file', arial, sans-serif;
+ }
+
+ #main-footer-contact-info p {
+    line-height: 22px;
+ }
+
+ #main-footer nav {
+    display: none;
+ }
+
+ #price-policy {
+    border-top: solid 3px #CF6666;
+    margin-top: 15px;
+    padding-top: 30px;
+    line-height: 22px;
+ }
+
+ /* about css */
+#about-video {
+    background-color: #9a2018;
+    padding: 80px 0 40px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.video-wrapper {
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.about-video-el {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#about-text {
+   padding-top: 20px;
+}
+
+.abt-facilities-text {
+    border-top: solid 3px #9a2018;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+#abt-quote-text {
+    background-color: #bcbcbc;   
+    padding: 30px 0;             
+}
+
+.abt-quote-inner p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.abt-disclaimer-text {
+   font-size: 10px;
+}
+
+.abt-hosts-text {
+   padding-top: 10px;
+}
+
+.dropdown-block {
+    margin-top: 20px;
+}
+
+.dropdown-block {
+    margin-top: 20px;
+}
+
+details summary {
+    list-style: none;
+}
+
+details > summary {
+    background-color: #e6e6e6;
+    padding: 12px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 3px solid #ffffff;
+    padding-left: 15px; 
+}
+
+details > summary::before {
+    content: none;
+}
+
+.dropdown-content {
+    background-color: #bcbcbc;
+    padding: 15px 20px;
+    margin-top: 0;
+}
+
+.dropdown-content ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.dropdown-content li {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+#service-patio-dropdown .dropdown-block {
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+#gift-shop-dropdown .dropdown-block {
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+#gym-dropdown .dropdown-block{
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+#gertrud-sorensen-dropdown .dropdown-block{
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+#img-abt-3 {
+   margin-top: 10px;
+}
+
+#img-abt-4 {
+   margin-top: 10px;
+}
+
+#img-abt-5 {
+   margin-top: 10px;
+}
+
+.press-releases-block {
+    margin-top: 40px;
+}
+
+.press-releases-block h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.press-releases-block h2 span {
+    color: #9a2018;
+    font-size: 18px;
+}
+
+.press-releases-block p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.press-releases-block a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#rooms-text {
+   border-top: 3px solid #9a2018;
+   margin-top: 15px;
+   padding-top: 40px;
+}
