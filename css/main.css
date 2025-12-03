@@ -481,3 +481,94 @@ details > summary::before {
 .book-now-large:hover {
     background-color: #b82b21;
 }
+
+#winter-video-hero {
+    background-color: #9a2018;
+    padding: 40px 0;
+}
+
+#winter-video-con {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.winter-video-heading {
+    color: #ffffff;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.video-wrapper {
+    width: 100%;
+}
+
+.winter-video {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+.winter-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #9a2018;
+    color: #fff;
+    padding: 25px 0;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#img-winter-5{
+    margin-top: 20px;
+}
+
+.algonquin-inner {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.algonquin-top-line,
+.algonquin-bottom-line {
+    border-top: 3px solid #9a2018;
+    margin: 10px 0 20px 0;
+}
+
+.algonquin-heading {
+    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 26px;
+    margin: 0 0 15px 0;
+}
+
+.algonquin-subhead {
+    color: #9a2018;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 25px 0 5px 0;
+}
+
+.other-activities-heading {
+    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.algonquin-inner p {
+    margin-bottom: 15px;
+}
+
+.algonquin-inner a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.algonquin-link {
+    margin-bottom: 25px;
+}
