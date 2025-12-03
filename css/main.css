@@ -391,8 +391,93 @@ details > summary::before {
     text-decoration: underline;
 }
 
-#rooms-text {
-   border-top: 3px solid #9a2018;
-   margin-top: 15px;
-   padding-top: 40px;
+.rooms-text-inner {
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    padding-top: 40px;
+}
+
+.rooms-text-two {
+    font-weight: bold;
+}
+
+.red-line {
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.room-text-inner p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.room-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #9a2018;
+    color: #fff;
+    padding: 25px 0;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.room-btn:hover {
+    background-color: #b82b21;
+}
+
+#img-room-villa {
+    margin-top: 20px;
+}
+
+#img-room-master {
+    margin-top: 20px;
+}
+
+#img-room-chalet {
+    margin-top: 20px;
+}
+
+#img-room-exotic {
+    margin-top: 20px;
+}
+
+#img-room-junior {
+    margin-top: 20px;
+}
+
+#img-room-duplex {
+    margin-top: 20px;
+}
+
+.rooms-final-inner .red-line {
+    border-top: 3px solid #9a2018;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.rooms-final-inner p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.book-now-large {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #9a2018;
+    color: #fff;
+    padding: 35px 0;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.book-now-large:hover {
+    background-color: #b82b21;
 }
