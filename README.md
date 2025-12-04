@@ -15,52 +15,52 @@ The website is designed using a mainly mobile approach with a small desktop sect
 - Desktop Rooms Page  
 
 ## File Structure
--css
-    -main.css
-    -grid.css
-
--images
-    -burger.svg
-    -couples_resort_logo.svg
-    -footer-bg.jpg
-    -footer-mt.jpg
-    -footer.jpg
-    -img-abt-1.jpg
-    -img-abt-2.jpg
-    -img-abt-3.jpg
-    -img-abt-4.jpg
-    -img-abt-5.jpg
-    -img-desktop-1
-    -img-desktop-chalet
-    -img-desktop-chateau
-    -img-desktop-duplex
-    -img-desktop-exotics
-    -img-desktop-junior
-    -img-desktop-master
-    -img-desktop-villa
-    -img-room-1
-    -img-room-chalet
-    -img-room-chateau
-    -img-room-duplex
-    -img-room-exotics
-    -img-room-junior
-    -img-room-master
-    -img-room-villa
-    -img-winter-1
-    -img-winter-2
-    -img-winter-3
-    -img-winter-4
-    -img-winter-5
-
--js
-
--desktop.html
--index.html
--rooms.html
--winter.html
--LICENSE
--README.md
-
+final-integrated-project/
+├── css/
+│ ├── main.css
+│ └── grid.css
+│
+├── images/
+│ ├── burger.svg
+│ ├── couples_resort_logo.svg
+│ ├── footer-bg.jpg
+│ ├── footer-mt.jpg
+│ ├── footer.jpg
+│ ├── img-abt-1.jpg
+│ ├── img-abt-2.jpg
+│ ├── img-abt-3.jpg
+│ ├── img-abt-4.jpg
+│ ├── img-abt-5.jpg
+│ ├── img-desktop-1.jpg
+│ ├── img-desktop-chalet.jpg
+│ ├── img-desktop-chateau.jpg
+│ ├── img-desktop-duplex.jpg
+│ ├── img-desktop-exotics.jpg
+│ ├── img-desktop-junior.jpg
+│ ├── img-desktop-master.jpg
+│ ├── img-desktop-villa.jpg
+│ ├── img-room-1.jpg
+│ ├── img-room-chalet.jpg
+│ ├── img-room-chateau.jpg
+│ ├── img-room-duplex.jpg
+│ ├── img-room-exotics.jpg
+│ ├── img-room-junior.jpg
+│ ├── img-room-master.jpg
+│ ├── img-room-villa.jpg
+│ ├── img-winter-1.jpg
+│ ├── img-winter-2.jpg
+│ ├── img-winter-3.jpg
+│ ├── img-winter-4.jpg
+│ └── img-winter-5.jpg
+│
+├── js/
+│
+├── desktop.html
+├── index.html
+├── rooms.html
+├── winter.html
+├── LICENSE
+└── README.md
 
 ## Features
 - Responsive grid-based layout  
