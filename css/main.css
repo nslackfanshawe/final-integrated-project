@@ -552,6 +552,10 @@ details[open] > summary::after {
     margin-bottom: 20px;
 }
 
+.winter-btn:hover {
+    background-color: #b82b21;
+}
+
 #img-winter-5{
     margin-top: 20px;
 }
